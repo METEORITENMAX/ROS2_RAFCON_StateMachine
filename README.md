@@ -25,3 +25,7 @@ Publish a Message to `topic` by:
 ros2 topic pub /topic std_msgs/msg/String "data: Hello World"
 ```
  to finish the Subscriber State.
+
+
+### Notes
+The StateMachine should consist of exactly one ros node. Therefore the `init_ros_node` library state was rewritten to initialize a ros2 node. The new `init_ros2_node` must be placed at the beginning of each StateMachine to use ros2 functionalities.

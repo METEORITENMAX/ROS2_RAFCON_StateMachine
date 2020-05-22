@@ -17,10 +17,11 @@ Some libraries might missing like `libgirepository1.0-dev`.
 
 
 ## Usage
-
+Start `rafcon` via the terminal to load necessary `ros2` environment variables.
 Open the State Machine in `rafcon`.
 
 Publish a Message to `topic` by:
 ```
 ros2 topic pub /topic std_msgs/msg/String "data: Hello World"
 ```
+ to finish the Subscriber State.
